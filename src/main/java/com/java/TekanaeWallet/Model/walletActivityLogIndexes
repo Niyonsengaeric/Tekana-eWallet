@@ -1,0 +1,11 @@
+-- Create an index for the id column
+CREATE INDEX idx_wallet_activity_logs_id ON wallet_activity_logs(id);
+
+-- Create an index for the transaction_id column
+CREATE INDEX idx_wallet_activity_logs_transaction_id ON wallet_activity_logs(transaction_id);
+
+-- Create an index for the wallet_id column
+CREATE INDEX idx_wallet_activity_logs_wallet_id ON wallet_activity_logs(wallet_id);
+
+-- Create an index for the action column
+CREATE INDEX idx_wallet_activity_logs_action ON wallet_activity_logs(action);

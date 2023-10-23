@@ -1,0 +1,8 @@
+-- Create an index on the sender_id column in the transactions table
+CREATE INDEX idx_sender ON transactions(sender_id);
+
+-- Create an index on the receiver_id column in the transactions table
+CREATE INDEX idx_receiver ON transactions(receiver_id);
+
+-- Create an index on the status column in the transactions table
+CREATE INDEX idx_status ON transactions(status);

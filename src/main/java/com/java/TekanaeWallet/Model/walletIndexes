@@ -1,0 +1,1 @@
+CREATE INDEX your_new_index_name ON wallets(account_number);

@@ -1,0 +1,5 @@
+-- Create an index on the email column with a key length of 191
+CREATE INDEX idx_email ON customers (email(191));
+
+-- Create an index on the nationalId column
+CREATE INDEX idx_national_id ON customers (nationalId);
