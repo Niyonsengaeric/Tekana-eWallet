@@ -28,6 +28,10 @@ public class WalletServiceImp implements WalletService {
 
     @Override
     public Wallet createWallet(Wallet wallet) {
+
+        if (walletRepository.existsByAccountNumber(wallet.getAccountNumber())) {
+            throw new BadRequestException("Wallet with account number " + wallet.getAccountNumber() + " already exists.");
+        }
         String customerEmail = wallet.getCustomer().getEmail();
         Customer customer = customerService.findByEmail(customerEmail);
 

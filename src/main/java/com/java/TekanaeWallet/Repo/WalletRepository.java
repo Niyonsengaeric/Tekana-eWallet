@@ -10,4 +10,6 @@ public interface WalletRepository extends JpaRepository<Wallet, Long> {
     List<Wallet> findAllByCustomer_Id(Long customerId);
     Optional<Wallet> findByAccountNumber(String accountNumber);
     List<Wallet> findAllByOrderByCreatedAtDesc();
+
+    boolean existsByAccountNumber(String accountNumber);
 }

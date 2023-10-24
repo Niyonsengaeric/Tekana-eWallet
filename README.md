@@ -79,7 +79,10 @@ Before getting started, ensure that you have the following prerequisites in plac
 
 Follow these steps to set up and run the Tekana-eWallet Back-End API locally:
 
-`git clone https://github.com/Niyonsengaeric/Tekana-eWallet.git`
+
+```bash
+git clone https://github.com/Niyonsengaeric/Tekana-eWallet.git
+```
 
 2. create MySQL  data base (e.g:tekana_wallet)
 
