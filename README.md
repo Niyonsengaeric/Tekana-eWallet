@@ -59,6 +59,11 @@ This solution is geared towards achieving high performance and reliability, ensu
 - **Get Activity Logs:** Retrieves logs of wallet activity.
 - **Get Activity Logs by Transaction:** Fetches activity logs associated with specific transactions.
 
+
+## Database Design
+
+![GitHub Logo](tekana_wallet.PNG)
+
 ## Running the Project
 
 To run the Spring Boot project locally, please follow the steps below:
@@ -148,6 +153,9 @@ Here are the available endpoints and their descriptions for the Tekana-eWallet B
 In this updated table, there is a new "Authorization" column that indicates whether an endpoint is protected and requires authentication (Yes) or is open for public access (No). This addition provides clarity on the authentication requirements for each endpoint.
 
 
+## Demo
+
+A demo of the application is available at [live demo](https://tekana-ewallet-tj3y.onrender.com/).
 
 ## Communication
 
